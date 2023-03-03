@@ -1,0 +1,11 @@
+#What is an IP Address & why do we need it?
+
+An IP address is a unique number assigned to every device on a TCP/IP network. It’s used to identify computers and devices and lets them communicate with each other.
+IP addresses are used to uniquely identify devices
+So when you send an email, for example, your computer sends data packets to the IP address of the other end of the connection and receives packets destined for its own IP address
+IP addresses are the numbers that enable our devices to communicate with each other. 
+Without IP addresses, we would have to copy data from device to device manually
+Work at layer 3 of OSI model
+Static Vs Dynamic:
+Static IP: Address does not change  |  Think: Printer
+Dynamic IP: Address is able to be changed | Think : Mobile Phone
