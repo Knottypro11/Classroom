@@ -1,0 +1,59 @@
+EBS - EC2 INSTANCES
+
+General guidance -Developer plan
+
+
+shared controls
+
+delete root access keys after keys
+releasing elastic ip will cost
+
+ATHENA
+
+AWS Application Discovery Service. 30
+
+AWS Service Catalog
+
+DynamoDB DAX
+
+global tables
+
+You can set only the upfront price for your reserved instances.
+
+What is a placement group in Amazon EC2?
+
+It is a group of EC2 instances within a single Availability Zone.
+
+What are design principles for performance efficiency in the cloud? 
+
+Which security procedures should you perform yourself even if you are using a managed service? 
+
+Which of the following are use cases for Amazon S3? Cost-effective database and log storage????
+
+You are planning to use the Microsoft SQL Server as your database engine. Which service allows you to run this commercial database on AWS? 
+
+EC2 RDS
+
+Bootstrapping
+
+Use Golden Images
+
+AWS’s Route 53 service
+
+Which of the following is NOT a factor when estimating the cost of Amazon EC2? 
+IEM
+
+Server-side encryption is about protecting data at rest. Server-side encryption with Amazon S3-managed encryption keys (SSE-S3) employs strong multi-factor encryption. Amazon S3 encrypts each object with a unique key. As an additional safeguard, it encrypts the key itself with a master key that it regularly rotates. Amazon S3 server-side encryption uses one of the strongest block ciphers available, 256-bit Advanced Encryption Standard (AES-256), to encrypt your data.
+
+The encryption is not performed automatically, you have to request it.
+
+All AWS customers have 24×7 access to customer service.
+    The Business support plan also provides access to Infrastructure Event Management for additional fee.
+
+The only plan that gives you access to a “Well-Architected Review” delivered by AWS Solution Architects is the Enterprise support plan.
+
+app stream
+
+Don't share security credentials between accounts, use IAM roles instead - Don't share security credentials between accounts to allow users from another AWS account to access resources in your AWS account. Instead, use IAM roles. You can define a role that specifies what permissions the IAM users in the other account are allowed. You can also designate which AWS accounts have the IAM users that are allowed to assume the role.
+
+kinesis
